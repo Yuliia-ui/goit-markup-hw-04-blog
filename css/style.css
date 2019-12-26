@@ -1,0 +1,70 @@
+:root {
+  --grey-color: #626262;
+  --white-color: #ffffff;
+  --primary-font-stack: 'Playfair Display';
+  --text-font-stack: 'Ubuntu';
+}
+
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+
+body {
+  background-color: var(--white-color);
+  color: #212121;
+}
+
+.header {
+  background-color: var(--white-color);
+  font-family: var(--primary-font-stack);
+}
+
+/*nav*/
+.site-nav .link {
+  color: var(--grey-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.site-nav .link-nav {
+  color: #03a9f4;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #1f55c9;
+}
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+  color: #1f55c9;
+}
+
+/*features*/
+.feature-list .text {
+  color: #b4ad9e;
+  font-family: var(--text-font-stack);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.feature-list .title {
+  color: var(--grey-color);
+  font-family: var(--primary-font-stack);
+  font-size: 30px;
+  line-height: 3.1;
+}
+.feature-list .description {
+  color: var(--grey-color);
+  font-family: var(--primary-font-stack);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.features .button {
+  color: var(--grey-color);
+  font-family: var(--primary-font-stack);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.button:hover .button:focus {
+  color: #221122;
+}
