@@ -47,7 +47,9 @@ body {
 }
 
 .site-nav .link {
-  display: block;
+  display: flex;
+  margin-bottom: 104px;
+  margin-top: 77px;
   padding-left: 60px;
   padding-right: 60px;
   text-decoration: none;
@@ -58,6 +60,8 @@ body {
 
 .site-nav .link-nav {
   display: block;
+  margin-bottom: 104px;
+  margin-top: 77px;
   margin-left: 105px;
   padding-left: 60px;
   padding-right: 60px;
@@ -115,6 +119,11 @@ body {
   margin-right: 66px;
 }
 
+.image {
+  margin-bottom: 31px;
+  width: 420px;
+}
+
 .feature-list-item:nth-child(2n) {
   margin-right: 0px;
 }
@@ -123,8 +132,14 @@ body {
 }
 
 .button {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 164px;
+  height: 60px;
+  background-color: #ddddd7;
+  border: 1px solid #626262;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--grey-color);
   font-family: var(--primary-font-stack);
   cursor: pointer;
@@ -132,6 +147,7 @@ body {
   line-height: 1.2;
 }
 
-.button:hover .button:focus {
+.button:hover,
+.button:focus {
   color: #221122;
 }
